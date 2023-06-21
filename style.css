@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagenes/background.jfif);
+}
+
+.hero__nav{
+    background-color: rgba(10, 73, 128, 0.774);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav__logo{
+
+    margin-left: 75px;
+
+    font-size: 25px;
+
+}
+.nav__links{
+
+    margin-right: 75px;
+
+}
+.nav__link{
+
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 20px;
+
+    margin-right: 20px;
+
+    cursor: pointer;
+}
+.nav__link:hover{
+
+    background-color: rgba(0, 255, 255, 0.514);
+
+    padding: 5px 7px;
+
+    border-radius: 10px;
+
+}
+.titulo{
+
+    font-size: 30px;
+
+}
+
+.container{
+
+    width: 700px;
+
+    height: 400px;
+
+    background-color: rgba(255, 228, 196, 0.719);
+
+    color: rgb(16, 95, 148);
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center; /* Centra verticalmente los elementos */
+
+    align-items: center;
+
+    border-radius: 30px;
+
+}
+
+.principal{
+
+    display: flex;
+
+    width: 100%;
+
+    height: 89vh;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+.titulo{
+
+    text-align: center;
+
+    font-size: 60px;
+
+    width: 600px;
+
+    margin-bottom: 40px;
+
+}
+.parrafo{
+
+    text-align: justify;
+
+    font-size: 25px;
+
+    width: 500px;
+}
